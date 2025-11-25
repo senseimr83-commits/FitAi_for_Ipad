@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@plugin "tailwindcss-animate";
+
+@theme inline {
+  /* Dark theme (default) */
+  --color-background: hsl(240 10% 4%);
+  --color-foreground: hsl(0 0% 98%);
+
+  --color-card: hsl(240 10% 6%);
+  --color-card-foreground: hsl(0 0% 98%);
+
+  --color-popover: hsl(240 10% 6%);
+  --color-popover-foreground: hsl(0 0% 98%);
+
+  --color-primary: hsl(84 100% 50%); /* Neon Lime */
+  --color-primary-foreground: hsl(240 10% 4%);
+
+  --color-secondary: hsl(190 100% 50%); /* Electric Blue */
+  --color-secondary-foreground: hsl(240 10% 4%);
+
+  --color-muted: hsl(240 6% 15%);
+  --color-muted-foreground: hsl(240 5% 65%);
+
+  --color-accent: hsl(324 100% 50%); /* Hot Pink */
+  --color-accent-foreground: hsl(0 0% 98%);
+
+  --color-destructive: hsl(0 84% 60%);
+  --color-destructive-foreground: hsl(0 0% 98%);
+
+  --color-border: hsl(240 6% 15%);
+  --color-input: hsl(240 6% 15%);
+  --color-ring: hsl(84 100% 50%);
+
+  --color-chart-1: hsl(84 100% 50%);
+  --color-chart-2: hsl(190 100% 50%);
+  --color-chart-3: hsl(324 100% 50%);
+  --color-chart-4: hsl(280 100% 60%);
+  --color-chart-5: hsl(35 100% 60%);
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-2xl: 2rem;
+
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Outfit', sans-serif;
+  --font-mono: 'Space Grotesk', monospace;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased selection:bg-primary/20 selection:text-primary;
+    background-color: black;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] shadow-xl;
+  }
+  
+  .glass-hover {
+    @apply hover:bg-white/[0.06] hover:border-white/[0.1] transition-all duration-300;
+  }
+
+  .glass-strong {
+    @apply bg-black/40 backdrop-blur-2xl border border-white/[0.08];
+  }
+
+  .text-glow {
+    text-shadow: 0 0 20px currentColor;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}

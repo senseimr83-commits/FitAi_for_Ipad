@@ -1,0 +1,134 @@
+ SW registered:  [object ServiceWorkerRegistration]
+ WebSocket connection to 'wss://1dbec563-d475-448b-af15-95f393b9828d-00-1fxbkc3wzg0ne.picard.replit.dev/?token=qCQYdp3VDKGu' failed: 
+createConnection @ 1dbec563-d475-448b-a…ev/@vite/client:745Understand this error
+ WebSocket connection to 'wss://1dbec563-d475-448b-af15-95f393b9828d-00-1fxbkc3wzg0ne.picard.replit.dev/?token=qCQYdp3VDKGu' failed: 
+createConnection @ 1dbec563-d475-448b-a…ev/@vite/client:745Understand this error
+ WebSocket connection to 'wss://localhost:5173/?token=qCQYdp3VDKGu' failed: 
+createConnection @ 1dbec563-d475-448b-a…ev/@vite/client:755Understand this error
+ WebSocket connection to 'wss://localhost:5173/?token=qCQYdp3VDKGu' failed: 
+createConnection @ 1dbec563-d475-448b-a…ev/@vite/client:755Understand this error
+ [vite] failed to connect to websocket.
+your current setup:
+  (browser) 1dbec563-d475-448b-af15-95f393b9828d-00-1fxbkc3wzg0ne.picard.replit.dev/ <--[HTTP]--> localhost:5173/ (server)
+  (browser) 1dbec563-d475-448b-af15-95f393b9828d-00-1fxbkc3wzg0ne.picard.replit.dev:/ <--[WebSocket (failing)]--> localhost:5173/ (server)
+Check out your Vite / network configuration and https://vite.dev/config/server-options.html#server-hmr .
+connect @ 1dbec563-d475-448b-a…ev/@vite/client:765Understand this error
+error?authError=ChVyZWRpcmVjdF91cmlfbWlzbWF0Y2gSsAEKWW91IGNhbid0IHNpZ24gaW4gdG8gdGhpcyBhcHAgYmVjYXV…:1  Failed to load resource: the server responded with a status of 403 ()Understand this error
+440 log entries are not shown.Understand this warning
+VM170 main.tsx:8 SW registered:  ServiceWorkerRegistration {installing: null, waiting: null, active: ServiceWorker, navigationPreload: NavigationPreloadManager, scope: 'https://1dbec563-d475-448b-af15-95f393b9828d-00-1fxbkc3wzg0ne.picard.replit.dev/', …}
+VM149 client:745 WebSocket connection to 'wss://1dbec563-d475-448b-af15-95f393b9828d-00-1fxbkc3wzg0ne.picard.replit.dev/?token=qCQYdp3VDKGu' failed: 
+createConnection @ VM149 client:745
+connect @ VM149 client:411
+connect @ VM149 client:751
+connect @ VM149 client:289
+connect @ VM149 client:373
+(anonymous) @ VM149 client:823Understand this error
+VM200 framer-motion.js:6107 Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "undefined".
+renderSVG @ VM200 framer-motion.js:6107
+renderInstance @ VM200 framer-motion.js:6137
+VisualElement.render @ VM200 framer-motion.js:5680
+triggerCallback @ VM200 framer-motion.js:353
+process @ VM200 framer-motion.js:386
+processBatch @ VM200 framer-motion.js:432
+setTimeout
+scheduleFn @ VM183 @tanstack_react-query.js:537
+flush @ VM183 @tanstack_react-query.js:551
+batch @ VM183 @tanstack_react-query.js:569
+#dispatch @ VM183 @tanstack_react-query.js:963
+setData @ VM183 @tanstack_react-query.js:672
+onSuccess @ VM183 @tanstack_react-query.js:865
+resolve @ VM183 @tanstack_react-query.js:442
+Promise.then
+run @ VM183 @tanstack_react-query.js:481
+start @ VM183 @tanstack_react-query.js:518
+fetch @ VM183 @tanstack_react-query.js:893
+#executeFetch @ VM183 @tanstack_react-query.js:1963
+onSubscribe @ VM183 @tanstack_react-query.js:1840
+subscribe @ VM183 @tanstack_react-query.js:19
+(anonymous) @ VM183 @tanstack_react-query.js:2962
+subscribeToStore @ VM175 react-dom_client.js:6089
+react_stack_bottom_frame @ VM175 react-dom_client.js:18567
+runWithFiberInDEV @ VM175 react-dom_client.js:997
+commitHookEffectListMount @ VM175 react-dom_client.js:9411
+commitHookPassiveMountEffects @ VM175 react-dom_client.js:9465
+commitPassiveMountOnFiber @ VM175 react-dom_client.js:11040
+recursivelyTraversePassiveMountEffects @ VM175 react-dom_client.js:11010
+commitPassiveMountOnFiber @ VM175 react-dom_client.js:11033
+recursivelyTraversePassiveMountEffects @ VM175 react-dom_client.js:11010
+commitPassiveMountOnFiber @ VM175 react-dom_client.js:11201
+recursivelyTraversePassiveMountEffects @ VM175 react-dom_client.js:11010
+commitPassiveMountOnFiber @ VM175 react-dom_client.js:11033
+recursivelyTraversePassiveMountEffects @ VM175 react-dom_client.js:11010
+commitPassiveMountOnFiber @ VM175 react-dom_client.js:11033
+recursivelyTraversePassiveMountEffects @ VM175 react-dom_client.js:11010
+commitPassiveMountOnFiber @ VM175 react-dom_client.js:11033
+recursivelyTraversePassiveMountEffects @ VM175 react-dom_client.js:11010
+commitPassiveMountOnFiber @ VM175 react-dom_client.js:11201
+recursivelyTraversePassiveMountEffects @ VM175 react-dom_client.js:11010
+commitPassiveMountOnFiber @ VM175 react-dom_client.js:11033
+recursivelyTraversePassiveMountEffects @ VM175 react-dom_client.js:11010
+commitPassiveMountOnFiber @ VM175 react-dom_client.js:11033
+recursivelyTraversePassiveMountEffects @ VM175 react-dom_client.js:11010
+commitPassiveMountOnFiber @ VM175 react-dom_client.js:11201
+recursivelyTraversePassiveMountEffects @ VM175 react-dom_client.js:11010
+commitPassiveMountOnFiber @ VM175 react-dom_client.js:11033
+recursivelyTraversePassiveMountEffects @ VM175 react-dom_client.js:11010
+commitPassiveMountOnFiber @ VM175 react-dom_client.js:11033
+recursivelyTraversePassiveMountEffects @ VM175 react-dom_client.js:11010
+commitPassiveMountOnFiber @ VM175 react-dom_client.js:11066
+flushPassiveEffects @ VM175 react-dom_client.js:13150
+flushPendingEffects @ VM175 react-dom_client.js:13088
+flushSpawnedWork @ VM175 react-dom_client.js:13062
+commitRoot @ VM175 react-dom_client.js:12804
+commitRootWhenReady @ VM175 react-dom_client.js:12016
+performWorkOnRoot @ VM175 react-dom_client.js:11950
+performSyncWorkOnRoot @ VM175 react-dom_client.js:13517
+flushSyncWorkAcrossRoots_impl @ VM175 react-dom_client.js:13414
+processRootScheduleInMicrotask @ VM175 react-dom_client.js:13437
+(anonymous) @ VM175 react-dom_client.js:13531
+<FitnessDashboard>
+exports.jsxDEV @ VM174 react_jsx-dev-runtime.js:247
+Router @ VM178 App.tsx:12
+react_stack_bottom_frame @ VM175 react-dom_client.js:18509
+renderWithHooks @ VM175 react-dom_client.js:5654
+updateFunctionComponent @ VM175 react-dom_client.js:7475
+beginWork @ VM175 react-dom_client.js:8525
+runWithFiberInDEV @ VM175 react-dom_client.js:997
+performUnitOfWork @ VM175 react-dom_client.js:12561
+workLoopSync @ VM175 react-dom_client.js:12424
+renderRootSync @ VM175 react-dom_client.js:12408
+performWorkOnRoot @ VM175 react-dom_client.js:11766
+performWorkOnRootViaSchedulerTask @ VM175 react-dom_client.js:13505
+performWorkUntilDeadline @ VM175 react-dom_client.js:36
+<Router>
+exports.jsxDEV @ VM174 react_jsx-dev-runtime.js:247
+App @ VM178 App.tsx:83
+react_stack_bottom_frame @ VM175 react-dom_client.js:18509
+renderWithHooks @ VM175 react-dom_client.js:5654
+updateFunctionComponent @ VM175 react-dom_client.js:7475
+beginWork @ VM175 react-dom_client.js:8525
+runWithFiberInDEV @ VM175 react-dom_client.js:997
+performUnitOfWork @ VM175 react-dom_client.js:12561
+workLoopSync @ VM175 react-dom_client.js:12424
+renderRootSync @ VM175 react-dom_client.js:12408
+performWorkOnRoot @ VM175 react-dom_client.js:11766
+performWorkOnRootViaSchedulerTask @ VM175 react-dom_client.js:13505
+performWorkUntilDeadline @ VM175 react-dom_client.js:36
+<App>
+exports.jsxDEV @ VM174 react_jsx-dev-runtime.js:247
+(anonymous) @ VM170 main.tsx:14Understand this error
+VM149 client:755 WebSocket connection to 'wss://localhost:5173/?token=qCQYdp3VDKGu' failed: 
+createConnection @ VM149 client:755
+connect @ VM149 client:411
+connect @ VM149 client:759Understand this error
+VM149 client:765 [vite] failed to connect to websocket.
+your current setup:
+  (browser) 1dbec563-d475-448b-af15-95f393b9828d-00-1fxbkc3wzg0ne.picard.replit.dev/ <--[HTTP]--> localhost:5173/ (server)
+  (browser) 1dbec563-d475-448b-af15-95f393b9828d-00-1fxbkc3wzg0ne.picard.replit.dev:/ <--[WebSocket (failing)]--> localhost:5173/ (server)
+Check out your Vite / network configuration and https://vite.dev/config/server-options.html#server-hmr .
+connect @ VM149 client:765
+await in connect
+connect @ VM149 client:289
+connect @ VM149 client:373
+(anonymous) @ VM149 client:823Understand this error
+error?authError=ChVyZWRpcmVjdF91cmlfbWlzbWF0Y2gSsAEKWW91IGNhbid0IHNpZ24gaW4gdG8gdGhpcyBhcHAgYmVjYXV…:1  Failed to load resource: the server responded with a status of 403 (
